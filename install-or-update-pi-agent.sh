@@ -460,7 +460,7 @@ fi
 PI_AGENT_DIR="$INSTALL_DIR"
 print_success "Pi Agent setup complete"
 
-
+}
 # Create systemd service
 create_systemd_service() {
     print_section "Creating System Services"
